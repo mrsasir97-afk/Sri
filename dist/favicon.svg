@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <!-- Background Circle Radial Gradient (Soft Cream to Warm Gold) -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="75%" stop-color="#fefbf3" />
+      <stop offset="100%" stop-color="#faecc7" />
+    </radialGradient>
+
+    <!-- Outer Gold Double Ring Border -->
+    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7dc8d" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#997300" />
+    </linearGradient>
+
+    <!-- Vibrant Royal Purple Lotus Petals -->
+    <linearGradient id="purplePetal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8a2be2" />
+      <stop offset="60%" stop-color="#6a0dad" />
+      <stop offset="100%" stop-color="#4b0082" />
+    </linearGradient>
+
+    <!-- Golden Kalash Pot -->
+    <linearGradient id="kalashGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffe699" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#b8860b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Solid Outer Circle Frame -->
+  <circle cx="50" cy="50" r="47" fill="url(#bgGrad)" stroke="url(#goldBorder)" stroke-width="4" />
+  
+  <!-- Dashed Gold Inner Ring -->
+  <circle cx="50" cy="50" r="41" fill="none" stroke="#d4af37" stroke-width="1.2" stroke-dasharray="3,1.5" />
+
+  <!-- Golden Kalash Base (Pot at bottom) -->
+  <path d="M 36 74 C 36 82 64 82 64 74 L 61 60 C 56 58 44 58 39 60 Z" fill="url(#kalashGold)" stroke="#8a6d1c" stroke-width="1.2" />
+  <ellipse cx="50" cy="60" rx="11" ry="3" fill="#ffe082" stroke="#d4af37" stroke-width="1" />
+
+  <!-- Green Leaves behind Petals -->
+  <path d="M 50 58 Q 30 50 26 38 Q 42 42 50 52 Z" fill="#2e7d32" stroke="#1b5e20" stroke-width="1" />
+  <path d="M 50 58 Q 70 50 74 38 Q 58 42 50 52 Z" fill="#2e7d32" stroke="#1b5e20" stroke-width="1" />
+
+  <!-- Three Vibrant Purple Lotus Petals -->
+  <!-- Left Petal -->
+  <path d="M 50 54 Q 22 40 28 22 Q 44 32 50 54 Z" fill="url(#purplePetal)" stroke="#38006b" stroke-width="1" />
+  <!-- Right Petal -->
+  <path d="M 50 54 Q 78 40 72 22 Q 56 32 50 54 Z" fill="url(#purplePetal)" stroke="#38006b" stroke-width="1" />
+  <!-- Center Main Tall Petal -->
+  <path d="M 50 54 Q 38 30 50 14 Q 62 30 50 54 Z" fill="url(#purplePetal)" stroke="#38006b" stroke-width="1" />
+
+  <!-- Gold Circle in Center Petal -->
+  <circle cx="50" cy="27" r="4.5" fill="#ffe082" stroke="#d4af37" stroke-width="1.2" />
+</svg>
