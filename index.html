@@ -19,6 +19,12 @@
       href="https://sridhanvantrivpm.com/"
     />
 
+    <!-- Search Engine Directives -->
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+
     <!-- Viewport -->
     <meta
       name="viewport"
@@ -32,10 +38,15 @@
       href="/logo.jpeg"
     />
 
-    <!-- Open Graph / Facebook / WhatsApp / LinkedIn -->
+    <!-- Open Graph -->
     <meta
       property="og:type"
       content="website"
+    />
+
+    <meta
+      property="og:site_name"
+      content="Sri Dhanvanthri Ayurveda Hospital"
     />
 
     <meta
@@ -59,8 +70,8 @@
     />
 
     <meta
-      property="og:site_name"
-      content="Sri Dhanvanthri Ayurveda Hospital"
+      property="og:image:alt"
+      content="Sri Dhanvanthri Ayurveda Hospital Logo"
     />
 
     <!-- Twitter / X -->
@@ -83,6 +94,104 @@
       name="twitter:image"
       content="https://sridhanvantrivpm.com/logo.jpeg"
     />
+
+    <!-- Local Business / Healthcare Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "MedicalClinic",
+            "@id": "https://sridhanvantrivpm.com/#hospital",
+            "name": "Sri Dhanvanthri Ayurveda Hospital",
+            "url": "https://sridhanvantrivpm.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://sridhanvantrivpm.com/logo.jpeg"
+            },
+            "image": "https://sridhanvantrivpm.com/logo.jpeg",
+            "description": "Sri Dhanvanthri Ayurveda Hospital in Villupuram, Tamil Nadu, providing Ayurveda treatments, Panchakarma therapies, Skin Care, Hair Care and Pain Management.",
+            "foundingDate": "2011",
+            "telephone": [
+              "+91-8778307484",
+              "+91-9994724910"
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "No. 17, West Hanumar Kovil St",
+              "addressLocality": "Villupuram",
+              "postalCode": "605602",
+              "addressRegion": "Tamil Nadu",
+              "addressCountry": "IN"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 11.9401,
+              "longitude": 79.4932
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday"
+                ],
+                "opens": "10:00",
+                "closes": "12:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday"
+                ],
+                "opens": "17:00",
+                "closes": "20:00"
+              }
+            ],
+            "areaServed": {
+              "@type": "City",
+              "name": "Villupuram"
+            },
+            "employee": {
+              "@type": "Physician",
+              "@id": "https://sridhanvantrivpm.com/#doctor",
+              "name": "Dr. M. Devi",
+              "jobTitle": "Chief Ayurveda Physician & Specialist",
+              "telephone": "+91-8778307484",
+              "hasCredential": [
+                {
+                  "@type": "EducationalOccupationalCredential",
+                  "credentialCategory": "B.A.M.S."
+                },
+                {
+                  "@type": "EducationalOccupationalCredential",
+                  "credentialCategory": "C.C.P.T."
+                }
+              ]
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://sridhanvantrivpm.com/#website",
+            "url": "https://sridhanvantrivpm.com/",
+            "name": "Sri Dhanvanthri Ayurveda Hospital",
+            "publisher": {
+              "@id": "https://sridhanvantrivpm.com/#hospital"
+            },
+            "inLanguage": "en-IN"
+          }
+        ]
+      }
+    </script>
 
     <!-- Fonts -->
     <link
